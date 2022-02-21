@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Billy Bob's Burgers & Subs</title>
+</head>
+<body>
+        <h1 style="text-align: center">Billy Bob's Burgers & Subs</h1>
+        <h2 style="text-align: center">Food with attitude</h2>
+
+
+    <form method="post" action="">
+        <p>Select Sandwich Type <br>
+            <input type="radio" name="subOrBurger" value="Sub" checked> Sub
+            <input type="radio" name="subOrBurger" value="Burger"> Burger
+        </p>
+
+        <p>Select Cheese <br>
+            <select name="cheeseSelection">
+                <option value="american">American</option>
+                <option value="pepperJack">Pepper Jack</option>
+                <option value="cheddar">Cheddar</option>
+                <option value="provolone">Provolone</option>
+                <option value="swiss">Swiss</option>
+                <option value="none">None</option>
+            </select>
+        </p>
+
+        <p>Select Toppings <br>
+            <select name="toppingSelection" multiple="true" size ="8">
+                <option value="sweetPeppers">Sweet Peppers</option>
+                <option value="hotPeppers">Hot Peppers</option>
+                <option value="jalapenos">Jalapenos</option>
+                <option value="spinach">Spinach</option>
+                <option value="pickles">Pickles</option>
+                <option value="onions">Onions</option>
+                <option value="tomatoes">Tomatoes</option>
+                <option value="lettuce">Lettuce</option>
+                <option value="none">None</option>
+            </select>
+        </p>
+        <p>Select Sauce <br>
+            <input type="checkbox" name="ketchup" value="ketchup">Ketchup
+            <input type="checkbox" name="mustard" value="mustard">Mustard
+            <br>
+            <input type="checkbox" name="oil" value="oil">Oil
+            <input type="checkbox" name="vinegar" value="vinegar">Vinegar
+        </p>
+
+        <br>
+        <p><b>Customer Information</b></p>
+        <p>Name: <input type="text" name="nameTextField" value="enter name"></p>
+        <p>Email: <input type="text" name="emailTextField" value="enter email"></p>
+        <p>Password: <input type="password" name="passwordTextField"</p>
+        <p>Comments: <textarea name="commentsTextArea" cols="26" rows="3">enter any comments or customizations</textarea></p>
+    </form>
+</body>
+</html>
